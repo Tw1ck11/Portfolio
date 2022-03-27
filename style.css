@@ -1,0 +1,94 @@
+* {
+    color: white;
+
+  }
+  
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #1b5e20;
+  }
+  
+  .photo {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  p {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .links a {
+    text-decoration: none;
+  }
+  
+  form {
+
+    margin-top: 20px;
+    
+    @media (max-width: 767px)
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  form input {
+    border: 0;
+    height: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  form input::-webkit-input-placeholder {
+    color: green;
+  }
+  
+  form input:-ms-input-placeholder {
+    color: green;
+  }
+  
+  form input::-ms-input-placeholder {
+    color: green;
+  }
+  
+  form input::placeholder {
+    color: green;
+  }
+  
+  form button {
+    background-color: green;
+    border: 0;
+    height: 20px;
+  }
+  
+  .back {
+    margin-bottom: 10px;
+  }
